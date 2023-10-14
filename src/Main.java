@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         var rus = "Пирвет Мир!";
@@ -8,6 +10,8 @@ public class Main {
         System.out.println(rus1);
         System.out.println(rus2);
         System.out.println(rus3);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите ваше имя: ");
 
     }
 }
